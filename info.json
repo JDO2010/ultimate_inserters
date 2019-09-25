@@ -1,8 +1,9 @@
 {
   "name": "Ultimate_Inserters",
-  "version": "0.0.1",
+  "version": "0.17.0",
   "title": "Ultimate Inserters",
   "author": "Vipervire",
   "description": "Faster collection of stack and filter inserters without any animations for lower CPU usage. Moves items very fast",
-  "factorio_version": "0.16"
+  "factorio_version": "0.17",
+	"dependencies": ["base >= 0.17"]
 }
