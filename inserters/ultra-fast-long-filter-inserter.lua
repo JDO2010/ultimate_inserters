@@ -25,14 +25,14 @@ data:extend(
     collision_box = {{-0.15, -0.15}, {0.15, 0.15}},
     selection_box = {{-0.4, -0.35}, {0.4, 0.45}},
     pickup_position = {0, -2},
-    insert_position = {0, 2.2000000000000002},
-    energy_per_movement = 400,
-    energy_per_rotation = 400,
+    insert_position = {0, 2.2},
+    energy_per_movement = "400J",
+    energy_per_rotation = "400J",
     energy_source =
     {
       type = "electric",
       usage_priority = "secondary-input",
-      drain = "1kW"
+      drain = "1000W"
     },
     extension_speed = 20,
     rotation_speed = 20,
@@ -40,81 +40,93 @@ data:extend(
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     hand_base_picture = {
       filename = "__base__/graphics/entity/stack-filter-inserter/stack-filter-inserter-hand-base.png",
-      height = 0,
+      height = 1,
       hr_version = {
         filename = "__base__/graphics/entity/stack-filter-inserter/hr-stack-filter-inserter-hand-base.png",
-        height = 0,
+        height = 1,
         priority = "extra-high",
         scale = 0.25,
-        width = 0
+        width = 1,
+      visible = false
       },
       priority = "extra-high",
-      width = 0
+      width = 1,
+      visible = false
     },
     hand_base_shadow = {
       filename = "__base__/graphics/entity/stack-filter-inserter/stack-filter-inserter-hand-base.png",
-      height = 0,
+      height = 1,
       hr_version = {
         filename = "__base__/graphics/entity/stack-filter-inserter/hr-stack-filter-inserter-hand-base.png",
-        height = 0,
+        height = 1,
         priority = "extra-high",
         scale = 0.25,
-        width = 0
+        width = 1,
+      visible = false
       },
       priority = "extra-high",
-      width = 0
+      width = 1,
+      visible = false
     },
     hand_closed_picture = {
       filename = "__base__/graphics/entity/stack-filter-inserter/stack-filter-inserter-hand-base.png",
-      height = 0,
+      height = 1,
       hr_version = {
         filename = "__base__/graphics/entity/stack-filter-inserter/hr-stack-filter-inserter-hand-base.png",
-        height = 0,
+        height = 1,
         priority = "extra-high",
         scale = 0.25,
-        width = 0
+        width = 1,
+      visible = false
       },
       priority = "extra-high",
-      width = 0
+      width = 1,
+      visible = false
     },
     hand_closed_shadow = {
       filename = "__base__/graphics/entity/stack-filter-inserter/stack-filter-inserter-hand-base.png",
-      height = 0,
+      height = 1,
       hr_version = {
         filename = "__base__/graphics/entity/stack-filter-inserter/hr-stack-filter-inserter-hand-base.png",
-        height = 0,
+        height = 1,
         priority = "extra-high",
         scale = 0.25,
-        width = 0
+        width = 1,
+      visible = false
       },
       priority = "extra-high",
-      width = 0
+      width = 1,
+      visible = false
     },
     hand_open_picture = {
       filename = "__base__/graphics/entity/stack-filter-inserter/stack-filter-inserter-hand-base.png",
-      height = 0,
+      height = 1,
       hr_version = {
         filename = "__base__/graphics/entity/stack-filter-inserter/hr-stack-filter-inserter-hand-base.png",
-        height = 0,
+        height = 1,
         priority = "extra-high",
         scale = 0.25,
-        width = 0
+        width = 1,
+      visible = false
       },
       priority = "extra-high",
-      width = 0
+      width = 1,
+      visible = false
     },
     hand_open_shadow = {
       filename = "__base__/graphics/entity/stack-filter-inserter/stack-filter-inserter-hand-base.png",
-      height = 0,
+      height = 1,
       hr_version = {
         filename = "__base__/graphics/entity/stack-filter-inserter/hr-stack-filter-inserter-hand-base.png",
-        height = 0,
+        height = 1,
         priority = "extra-high",
         scale = 0.25,
-        width = 0
+        width = 1,
+      visible = false
       },
       priority = "extra-high",
-      width = 0
+      width = 1,
+      visible = false
     },
     platform_picture = {
       sheet = {

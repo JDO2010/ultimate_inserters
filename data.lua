@@ -7,5 +7,3 @@ require ("inserters.ultra-fast-long-filter-inserter")
 require ("item.ultra-fast-inserter")
 require ("recipe.ultra-fast-inserter")
 require ("technology.ultra-fast-inserter")
-
-

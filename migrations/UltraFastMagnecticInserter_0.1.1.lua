@@ -6,8 +6,7 @@ for index, force in pairs(game.forces) do
   if technologies["ultra-fast-inserter"].researched then
     recipes["ultra-fast-long-inserter"].enabled = true
     recipes["ultra-fast-filter-inserter"].enabled = true
-    recipes["ultra-fast-long-filter-inserter"].enabled = true
-    recipes["ultra-fast-long-configurable-inserter"].enabled = true
+    recipes["ultra-fast-long-filter-inserter"].enabled = true    
   end
 
   if technologies["ultra-fast-configurable-inserter"].researched then
